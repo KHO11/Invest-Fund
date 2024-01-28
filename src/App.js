@@ -1,16 +1,8 @@
 import './App.css';
 import React from 'react';
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  Navigate,
-} from "react-router-dom";
-
+import {BrowserRouter as Router, Routes, Route, } from "react-router-dom";
 import Home from "./Home";
-// import About component
 import About from "./About";
-// import ContactUs component
 import News from "./News";
 
 function App() {
